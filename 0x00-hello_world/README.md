@@ -1,6 +1,5 @@
-#!/bin/bash
 <<<<<<< HEAD
-gcc -E $CFILE -o c
+hello world readme
 =======
-gcc -c $CFILE
+hello world c readme
 >>>>>>> a0cb794b9445dcecd83a470984b64a6965a53e69
