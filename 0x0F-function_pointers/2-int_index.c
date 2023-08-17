@@ -1,4 +1,5 @@
 #include "function_pointers.h"
+#include <stdlib.h>
 
 /**
  * int_index - searches for an integer in an array
@@ -6,8 +7,7 @@
  * @size: number of elements in the arry.
  * @cmp: pointer to the comparison function.
  *
- * Return: index of the first element for which cmp function does not return 0, 
- *         or -1 if no element matches or size <= 0.
+ * Return: index of the integet if found and -1 if not 
  */
 int int_index(int *array, int size, int (*cmp)(int))
 {
@@ -22,5 +22,4 @@ int int_index(int *array, int size, int (*cmp)(int))
 	}
 	return (-1);
 }
-
 
