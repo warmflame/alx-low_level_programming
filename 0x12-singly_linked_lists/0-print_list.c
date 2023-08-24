@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include "lists.h" // Include your header file that defines the list_t structure
+
+/**
+ * print_list - Prints all elements of a list_t linked list.
+ * @h: A pointer to the head of the linked list.
+ *
+ * Return: The number of nodes in the list.
+ */
+size_t print_list(const list_t *h)
+{
+    size_t count = 0; // To keep track of the number of nodes
+
+    while (h != NULL)
+    {
+        if (h->str == NULL)
+            printf("[0] (nil)\n");
+        else
+            printf("[%u] %s\n", h->len, h->str);
+
+        h = h->next;
+        count++;
+    }
+
+    return count;
+}
+
