@@ -3,7 +3,6 @@
 
 #include <stddef.h> // For size_t
 
-/* Structure for singly linked list */
 typedef struct list_s
 {
     char *str;
