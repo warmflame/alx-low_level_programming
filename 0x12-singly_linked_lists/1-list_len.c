@@ -1,5 +1,5 @@
 #include <stddef.h>
-#include "lists.h" // Include your header file that defines the list_t structure
+#include "lists.h" 
 
 /**
  * list_len - Returns the number of elements in a list_t linked list.
