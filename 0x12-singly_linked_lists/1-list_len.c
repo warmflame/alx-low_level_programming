@@ -9,14 +9,14 @@
  */
 size_t list_len(const list_t *h)
 {
-	size_t count = 0; // To keep track of the number of elements
+	size_t n = 0; // To keep track of the number of elements
 
-	while (h != 0) // Using 0 instead of NULL
+	while (h) // Using 0 instead of NULL
 	{
+		n++;
 		h = h->next;
-		count++;
 	}
 
-	return (count);
+	return (n);
 }
 
