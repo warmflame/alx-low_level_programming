@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "lists.h" // Include your header file that defines the list_t structure
+#include "lists.h"
 
 /**
  * print_list - Prints all elements of a list_t linked list.
@@ -9,7 +9,7 @@
  */
 size_t print_list(const list_t *h)
 {
-    size_t count = 0; // To keep track of the number of nodes
+    size_t count = 0; /* To keep track of the number of nodes */
 
     while (h != NULL)
     {
