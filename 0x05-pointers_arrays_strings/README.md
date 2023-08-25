@@ -1,1 +1,0 @@
-read me pointers_arrays_strings
