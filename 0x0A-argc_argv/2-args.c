@@ -2,8 +2,8 @@
 #include <stdio.h>
 /**
  * main - prints all arguments recieved
- * argc: num of arguments
- * argv: array of arguments
+ * @argc: num of arguments
+ * @argv: array of arguments
  *
  * Return: 0
  */
