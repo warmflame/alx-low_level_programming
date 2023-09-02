@@ -2,13 +2,13 @@
 #include <stdio.h>
 
 /**
- * main -  prints program that prints name
- * @argc: number of arguments 
- * @argv: array of string containing the argument 
+ * main - prints program that prints name
+ * @argc: number of arguments
+ * @argv: array of string containing the argument
  *
  * Return: 0
  */
-int main(int argc __attribute__((unused)), char *argv[]) 
+int main(int argc __attribute__((unused)), char *argv[])
 {
 	printf("%s\n", argv[0]);
 
