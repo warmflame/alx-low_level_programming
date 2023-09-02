@@ -10,7 +10,7 @@
 
 int main(int argc, char *argv[])
 {
-(void) argv; /*the void function allows argv to be ignored*/
+	(void) argv; /*the void function ignores argv*/
 	printf("%d\n", argc - 1);
 
 	return (0);
