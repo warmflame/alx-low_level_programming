@@ -22,5 +22,25 @@ int main(int argc, char *argv[])
 	{
 		int num = 0;
 		char *arg = argv[i];
+		
+		for(int j = 0; arg[j] != '\0'; j++)
+		{
+			if (!isdigit(arg[j]))
+			{
+				printf("Error\n");
+				return(1);
+			}
+		}
 	}
+	
+	num = atoi(arg); /* converts arugment into an integer */
+
+	if (num > 0) /* checks if num is positive */
+	{
+		sum += num;
+	}
+
+	printf("%d\n", sum);
+
+	return (0);
 }
