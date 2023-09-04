@@ -16,14 +16,14 @@ int main(int argc, char *argv[])
 	if (argc == 1) /* equal to 1 because if no number passes, returns 0 */
 	{
 		printf("0\n");
-		return 0;
+		return (0);
 	}
 	for (int i == 1; i < argc; i++)
 	{
 		int num = 0;
 		char *arg = argv[i];
 		
-		for(int j = 0; arg[j] != '\0'; j++)
+		for (int j = 0; arg[j] != '\0'; j++)
 		{
 			if (!isdigit(arg[j]))
 			{
