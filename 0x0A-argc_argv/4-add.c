@@ -13,12 +13,13 @@ int main(int argc, char *argv[])
 {
 	int sum = 0;
 
-	if (argc == 1) /* equal to 1 because if no number passes, returns 0 */
+	if (argc = 1) /* equal to 1 because if no number passes, returns 0 */
 	{
 		printf("0\n");
 		return (0);
 	}
-	for (int i == 1; i < argc; i++)
+	
+	for (int i = 1; i < argc; i++)
 	{
 		int num = 0;
 		char *arg = argv[i];
@@ -31,16 +32,17 @@ int main(int argc, char *argv[])
 				return(1);
 			}
 		}
-	}
 	
-	num = atoi(arg); /* converts arugment into an integer */
+		num = atoi(arg); /* converts arugment into an integer */
 
-	if (num > 0) /* checks if num is positive */
-	{
-		sum += num;
+		if (num > 0) /* checks if num is positive */
+		{
+			sum += num;
+		}
 	}
 
 	printf("%d\n", sum);
 
 	return (0);
 }
+
