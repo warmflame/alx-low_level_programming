@@ -5,10 +5,10 @@
  *
  * Return: 0
  */
-int main()
+int main(void)
 {
-	printf(("This program prints the file it was compiled from: %s\n", __FILE__);
+	printf("This program prints the file it was compiled from: %s\n", __FILE__);
 	
-	return 0;
+	return (0);
 }
 
