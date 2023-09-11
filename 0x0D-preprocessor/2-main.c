@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	printf(("%s\n", __FILE__);
-	return (0);
+	printf(("This program prints the file it was compiled from: %s\n", __FILE__);
+	return 0;
 }
 
